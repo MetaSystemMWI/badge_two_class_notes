@@ -1,0 +1,46 @@
+p {
+    text-align: center;
+}
+
+#demo {
+    background-color: black;
+    color: white;
+}
+
+.demo1 {
+    background-color: blue;
+    color: white;
+}
+
+p,
+#demo {
+    color: red;
+}
+
+#demo {
+    color: white;
+}
+
+.demo1 {
+    color: black;
+}
+
+* {
+    background-color: yellow;
+}
+
+
+/* rgb, rgba, hsl, hsla, hex */
+
+h1 {
+    /* background-image: url("/HTML/images/2.jpeg");
+    background-repeat: no-repeat; */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* width: 100px;
+    height: 100px; */
+    /* background-position: right; */
+    /* right, left, top, bottom */
+    /* background-attachment: fixed; */
+    background: red url(/HTML/images/2.jpeg) no-repeat right fixed;
+}
