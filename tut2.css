@@ -1,0 +1,22 @@
+p {
+    border-style: solid;
+    border-width: 4px;
+    border-color: red green blue yellow;
+    /* border-left-style: dashed black;
+    border-right-style: yellow;
+    border-top: yellow;
+    border-bottom: black; */
+    border-radius: 50px 10px 20px 50px;
+    text-align: center;
+    /* margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px; */
+    margin: 10px 10px 10px 10px;
+    /* padding-left: 40px;
+    padding-right: 50px; */
+    /* padding-top: 50px; */
+    /* padding: 10px; */
+    height: 300px;
+    width: 300px;
+}

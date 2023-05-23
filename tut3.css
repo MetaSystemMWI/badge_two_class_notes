@@ -1,0 +1,28 @@
+div {
+    width: 340px;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 5px;
+}
+
+div {
+    /* outline-style: dotted;
+    outline-width: 10px;
+    outline-color: red;
+    outline-offset: 15px; */
+    /* text-align-last: center; */
+    direction: rtl;
+    direction: ltr;
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: capitalize;
+    text-indent: 50px;
+    letter-spacing: 10px;
+    line-height: 30px;
+    word-spacing: 40px;
+    text-shadow: 20px 10px 5px red;
+}
+
+button {
+    width: auto;
+}
