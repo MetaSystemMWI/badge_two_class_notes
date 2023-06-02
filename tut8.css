@@ -1,0 +1,80 @@
+   body {
+       margin: 0;
+   }
+   
+   .header {
+       background-image: url("ggg.gif");
+       background-repeat: repeat;
+       background-color: black;
+       padding: 20px;
+       color: white;
+       text-align: center;
+   }
+   
+   * {
+       box-sizing: border-box;
+   }
+   
+   .topnav {
+       overflow: hidden;
+       background-color: red;
+   }
+   
+   .topnav a {
+       float: left;
+       display: block;
+       color: white;
+       text-align: center;
+       padding: 8px 12px;
+       text-decoration: none;
+   }
+   
+   .topnav a:hover {
+       background-color: #ddd;
+       color: black;
+   }
+   
+   .column {
+       float: left;
+       width: 33.33%;
+       padding: 15px;
+   }
+   
+   .row::after {
+       content: "";
+       display: table;
+       clear: both;
+   }
+   
+   @media screen and (max-width:600px) {
+       .column {
+           width: 100%;
+       }
+   }
+   
+   @media screen and (max-width:400px) {
+       .topnav a {
+           float: none;
+           width: 100%;
+       }
+   }
+   
+   .footer {
+       background-color: black;
+       padding: 10px;
+       text-align: center;
+       color: white;
+   }
+   
+   @media screen and (max-width:400px) {
+       .footer {
+           float: none;
+           width: 100%;
+       }
+   }
+   
+   @media screen and (max-width:600px) {
+       .head {
+           width: 100%;
+       }
+   }
