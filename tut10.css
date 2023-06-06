@@ -1,0 +1,39 @@
+#rn {
+    border-radius: 25px;
+    background: red;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+#corn {
+    border-radius: 10px 15px;
+    background: red;
+    padding: 10px;
+    width: 70px;
+    height: 20px;
+}
+
+#rconr1 {
+    border-radius: 25px 50px 75px;
+    background: red;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+#rconr2 {
+    border-radius: 25px 50px 75px 100px;
+    background: red;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+#borderimg {
+    color: white;
+    background: red;
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url("1.png") 30% round;
+}
