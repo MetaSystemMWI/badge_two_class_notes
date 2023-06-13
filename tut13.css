@@ -1,0 +1,63 @@
+.button {
+    border-radius: 5px;
+    border: 2px solid red;
+    color: black;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: green;
+    color: white;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 2px solid #ddd;
+    margin: 0 4px;
+}
+
+.pagination a.active {
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+.newspaper {
+    column-count: 4;
+    column-gap: 50px;
+    column-rule-style: solid;
+    column-rule-width: 10px;
+    column-rule-color: red;
+}
+
+.newspaper {
+    color: green;
+}
+
+body {
+    background-color: pink;
+}
+
+@media screen and (min-width:480px) {
+    body {
+        background-color: lightgreen;
+    }
+}
